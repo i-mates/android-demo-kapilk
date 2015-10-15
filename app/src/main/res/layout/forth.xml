@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffff68d">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="History Of Legend"
+        android:id="@+id/title4"
+        android:gravity="center_horizontal"
+        android:textColor="#ffff9207"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Shivaji Bhosle  3 April 1680), also known as Chhatrapati Shivaji Maharaj, was an Indian warrior king and a member of the Bhonsle Maratha clan. Shivaji carved out an enclave from the declining Adilshahi sultanate of Bijapur that formed the genesis of the Maratha Empire. In 1674, he was formally crowned as the Chhatrapati (Monarch) of his realm at Raigad.  Shivaji established a competent and progressive civil rule with the help of a disciplined military and well-structured administrative organisations. He innovated military tactics, pioneering the guerrilla warfare methods (Shiva sutra or ganimi kava), which leveraged strategic factors like geography, speed, and surprise and focused pinpoint attacks to defeat his larger and more powerful enemies. From a small contingent of 2,000 soldiers inherited from his father, Shivaji created a force of 100,000 soldiers; he built and restored strategically located forts both inland and coastal to safeguard his territory. He revived ancient Hindu political traditions and court conventions and promoted the usage of Marathi and Sanskrit, rather than Persian, in court and administration.  Shivaji&apos;s legacy was to vary by observer and time but began to take on increased importance with the emergence of the Indian independence movement, as many elevated him as a proto-nationalist and hero of the Hindus. Particularly in Maharashtra, debates over his history and role have engendered great passion and sometimes even violence as disparate groups have sought to characterise him and his legacy."
+        android:id="@+id/info"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:typeface="serif" />
+
+
+</LinearLayout>

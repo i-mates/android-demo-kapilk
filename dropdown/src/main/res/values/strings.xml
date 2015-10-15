@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DropDown</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="countries_list">
+        <item>Australia</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>England</item>
+        <item>India</item>
+        <item>Nepal</item>
+        <item>USA</item>
+    </string-array>
+</resources>

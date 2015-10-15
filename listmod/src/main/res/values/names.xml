@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="name">
+        <item name="1">One</item>
+        <item name="2">Two</item>
+        <item name="3">Three</item>
+        <item name="4">Four</item>
+        <item name="5">Five</item>
+        <item name="6">Six</item>
+    </array>
+</resources>

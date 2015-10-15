@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-demo-kapilk1.iml" filepath="$PROJECT_DIR$/android-demo-kapilk1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arithmaticopp/arithmaticopp.iml" filepath="$PROJECT_DIR$/arithmaticopp/arithmaticopp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxdmo/checkboxdmo.iml" filepath="$PROJECT_DIR$/checkboxdmo/checkboxdmo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dropdown/dropdown.iml" filepath="$PROJECT_DIR$/dropdown/dropdown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expandnev/expandnev.iml" filepath="$PROJECT_DIR$/expandnev/expandnev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kapilblank/kapilblank.iml" filepath="$PROJECT_DIR$/kapilblank/kapilblank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kapilslide/kapilslide.iml" filepath="$PROJECT_DIR$/kapilslide/kapilslide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listmod/listmod.iml" filepath="$PROJECT_DIR$/listmod/listmod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listtest/listtest.iml" filepath="$PROJECT_DIR$/listtest/listtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadweb/loadweb.iml" filepath="$PROJECT_DIR$/loadweb/loadweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menuprocess/menuprocess.iml" filepath="$PROJECT_DIR$/menuprocess/menuprocess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nevexpand/nevexpand.iml" filepath="$PROJECT_DIR$/nevexpand/nevexpand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nevtest/nevtest.iml" filepath="$PROJECT_DIR$/nevtest/nevtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progress/progress.iml" filepath="$PROJECT_DIR$/progress/progress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rediodemo/rediodemo.iml" filepath="$PROJECT_DIR$/rediodemo/rediodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scilentmode/scilentmode.iml" filepath="$PROJECT_DIR$/scilentmode/scilentmode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sidedemo/sidedemo.iml" filepath="$PROJECT_DIR$/sidedemo/sidedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingdemo/slidingdemo.iml" filepath="$PROJECT_DIR$/slidingdemo/slidingdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sound/sound.iml" filepath="$PROJECT_DIR$/sound/sound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tabapp/tabapp.iml" filepath="$PROJECT_DIR$/tabapp/tabapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tabla/tabla.iml" filepath="$PROJECT_DIR$/tabla/tabla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videotuto/videotuto.iml" filepath="$PROJECT_DIR$/videotuto/videotuto.iml" />
+    </modules>
+  </component>
+</project>

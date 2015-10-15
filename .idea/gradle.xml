@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/arithmaticopp" />
+            <option value="$PROJECT_DIR$/checkboxdmo" />
+            <option value="$PROJECT_DIR$/dropdown" />
+            <option value="$PROJECT_DIR$/expandnev" />
+            <option value="$PROJECT_DIR$/kapilblank" />
+            <option value="$PROJECT_DIR$/kapilslide" />
+            <option value="$PROJECT_DIR$/listmod" />
+            <option value="$PROJECT_DIR$/listtest" />
+            <option value="$PROJECT_DIR$/loadweb" />
+            <option value="$PROJECT_DIR$/menuprocess" />
+            <option value="$PROJECT_DIR$/nevexpand" />
+            <option value="$PROJECT_DIR$/nevtest" />
+            <option value="$PROJECT_DIR$/progress" />
+            <option value="$PROJECT_DIR$/rediodemo" />
+            <option value="$PROJECT_DIR$/scilentmode" />
+            <option value="$PROJECT_DIR$/sidedemo" />
+            <option value="$PROJECT_DIR$/slidingdemo" />
+            <option value="$PROJECT_DIR$/sound" />
+            <option value="$PROJECT_DIR$/tabapp" />
+            <option value="$PROJECT_DIR$/tabla" />
+            <option value="$PROJECT_DIR$/videotuto" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

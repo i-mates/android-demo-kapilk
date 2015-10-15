@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="cont">
+
+        <item name="a">A</item>
+        <item name="b">AB</item>
+        <item name="c">ABC</item>
+        <item name="d">ABCD</item>
+        <item name="e">ABCDE</item>
+        <item name="f">ABCDEF</item>
+    </array>
+</resources>
