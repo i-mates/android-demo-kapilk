@@ -19,6 +19,7 @@ import java.util.Collections;
 public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDrawerAdapter.MyViewHolder> {
 
     List<NavDrawerItem> data = Collections.emptyList();
+
     private LayoutInflater inflater;
     private Context context;
     TextView Tv;
@@ -26,13 +27,13 @@ public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDraw
     public NavigationDrawerAdapter(Context context, List<NavDrawerItem> data) {
         this.context = context;
         inflater = LayoutInflater.from(context);
-        this.data = data;
+       this.data =data;
     }
 
     public void delete(int position) {
         data.remove(position);
         notifyItemRemoved(position);
-    }
+   }
 
 
     @Override

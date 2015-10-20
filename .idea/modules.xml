@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/arithmaticopp/arithmaticopp.iml" filepath="$PROJECT_DIR$/arithmaticopp/arithmaticopp.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxdmo/checkboxdmo.iml" filepath="$PROJECT_DIR$/checkboxdmo/checkboxdmo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databaseop/databaseop.iml" filepath="$PROJECT_DIR$/databaseop/databaseop.iml" />
       <module fileurl="file://$PROJECT_DIR$/dropdown/dropdown.iml" filepath="$PROJECT_DIR$/dropdown/dropdown.iml" />
       <module fileurl="file://$PROJECT_DIR$/expandnev/expandnev.iml" filepath="$PROJECT_DIR$/expandnev/expandnev.iml" />
       <module fileurl="file://$PROJECT_DIR$/kapilblank/kapilblank.iml" filepath="$PROJECT_DIR$/kapilblank/kapilblank.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/nevexpand/nevexpand.iml" filepath="$PROJECT_DIR$/nevexpand/nevexpand.iml" />
       <module fileurl="file://$PROJECT_DIR$/nevtest/nevtest.iml" filepath="$PROJECT_DIR$/nevtest/nevtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/progress/progress.iml" filepath="$PROJECT_DIR$/progress/progress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prtknev/prtknev.iml" filepath="$PROJECT_DIR$/prtknev/prtknev.iml" />
       <module fileurl="file://$PROJECT_DIR$/rediodemo/rediodemo.iml" filepath="$PROJECT_DIR$/rediodemo/rediodemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/scilentmode/scilentmode.iml" filepath="$PROJECT_DIR$/scilentmode/scilentmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/sidedemo/sidedemo.iml" filepath="$PROJECT_DIR$/sidedemo/sidedemo.iml" />

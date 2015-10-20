@@ -72,6 +72,8 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
                 // "Group Clicked " + listDataHeader.get(groupPosition),
                 // Toast.LENGTH_SHORT).show();
                 return false;
+
+
             }
         });
 
@@ -82,6 +84,9 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
                 Toast.makeText(getApplicationContext(),
                         listDataHeader.get(groupPosition) + " Expanded",
                         Toast.LENGTH_SHORT).show();
+
+
+
             }
         });
 
@@ -112,6 +117,7 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
                                 listDataHeader.get(groupPosition)).get(
                                 childPosition), Toast.LENGTH_SHORT)
                         .show();
+                parent.collapseGroup(groupPosition);
                 return false;
             }
         });
@@ -122,8 +128,7 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
                 getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), mToolbar);
         drawerFragment.setDrawerListener(this);
-
-        displayView(0);
+   //     displayView(0);
     }
 
     private void prepareListData() {
