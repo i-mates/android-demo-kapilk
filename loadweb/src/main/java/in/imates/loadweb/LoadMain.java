@@ -3,6 +3,10 @@ package in.imates.loadweb;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.media.audiofx.BassBoost;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.provider.Settings;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -17,6 +21,7 @@ import android.widget.Toast;
 public class LoadMain extends ActionBarActivity {
 
    private Button btnweb;
+    public boolean connected;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +33,23 @@ public class LoadMain extends ActionBarActivity {
         btnweb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context,WebViewActivity.class);
-                startActivity(intent);
+
+                ConnectivityManager  cm = (ConnectivityManager)getSystemService(context.CONNECTIVITY_SERVICE);
+                if(cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
+                cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED){
+                        connected = true;
+                }
+                else{
+                    connected = false;
+                }
+                if(connected == true) {
+                    Intent intent = new Intent(context, WebViewActivity.class);
+                    startActivity(intent);
+                }
+                else {
+                    Toast.makeText(getApplicationContext(),"Network Not Available",Toast.LENGTH_SHORT).show();
+                    startActivityForResult(new Intent(Settings.ACTION_SETTINGS),0);
+                }
             }
         });
 
