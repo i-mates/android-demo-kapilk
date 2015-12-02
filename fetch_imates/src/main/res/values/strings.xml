@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fetch_imates</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="status_list">
+        <item>Select Status..</item>
+        <item>pass</item>
+        <item>fail</item>
+    </string-array>
+</resources>

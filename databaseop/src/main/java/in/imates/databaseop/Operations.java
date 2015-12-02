@@ -40,6 +40,43 @@ public class Operations {
         return result;
     }
 
+    public String getName(long l) {
+        String [] columns = new String[]{ROWID,NAME,SNAME};
+        Cursor c = ourdb.query(DATABASE_TABLE,columns,ROWID + "=" + l,null,null,null,null);
+        if(c != null){
+            c.moveToFirst();
+            String name = c.getString(1);
+            return name;
+        }
+
+        return null;
+    }
+
+    public String getSname(long l) {
+        String [] columns = new String[]{ROWID,NAME,SNAME};
+        Cursor c = ourdb.query(DATABASE_TABLE,columns,ROWID + "=" + l,null,null,null,null);
+        if(c != null){
+            c.moveToFirst();
+            String sname = c.getString(2);
+            return sname;
+        }
+
+        return null;
+    }
+
+    public void update(long ul, String ufn, String usn) {
+        ContentValues cv = new ContentValues();
+        cv.put(NAME,ufn);
+        cv.put(SNAME,usn);
+        ourdb.update(DATABASE_TABLE,cv,ROWID + "=" + ul,null);
+
+
+    }
+
+    public void delete(long l) {
+        ourdb.delete(DATABASE_TABLE,ROWID + "="+l+ null,null);
+    }
+
 
     private static class DbHelper extends SQLiteOpenHelper{
 

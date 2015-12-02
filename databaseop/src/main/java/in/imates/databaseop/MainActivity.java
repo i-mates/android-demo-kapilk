@@ -1,9 +1,9 @@
 package in.imates.databaseop;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,11 +12,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.sql.SQLException;
 
-public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
-    private Button save,view;
-    private EditText name,sname;
+public class MainActivity extends Activity implements View.OnClickListener {
+
+    private Button save,view,sqlgetinfo,sqlupdate,sqldelete;
+    private EditText name,sname,sqlrow;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,9 +27,15 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         view = (Button) findViewById(R.id.view);
         name = (EditText) findViewById(R.id.name);
         sname = (EditText) findViewById(R.id.sname);
-
+        sqlrow = (EditText) findViewById(R.id.rowid);
+        sqlgetinfo = (Button) findViewById(R.id.getinfo);
+        sqlupdate = (Button) findViewById(R.id.bupdate);
+        sqldelete = (Button) findViewById(R.id.bdelete);
         save.setOnClickListener(this);
         view.setOnClickListener(this);
+        sqlgetinfo.setOnClickListener(this);
+        sqlupdate.setOnClickListener(this);
+        sqldelete.setOnClickListener(this);
 
     }
 
@@ -86,6 +94,53 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             case R.id.view:
 
                 startActivity(new Intent(MainActivity.this, in.imates.databaseop.view.class));
+                break;
+            case R.id.getinfo:
+                String sr = sqlrow.getText().toString();
+                long l = Long.parseLong(sr);
+                Operations op = new Operations(this);
+                try {
+                    op.open();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String retname = op.getName(l);
+                String retsname = op.getSname(l);
+                op.close();
+
+                name.setText(retname);
+                sname.setText(retsname);
+
+                break;
+            case R.id.bupdate:
+                String ufn = name.getText().toString();
+                String usn = sname.getText().toString();
+                String usr = sqlrow.getText().toString();
+                long ul = Long.parseLong(usr);
+
+                Operations uop = new Operations(this);
+                try {
+                    uop.open();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                uop.update(ul,ufn,usn);
+                uop.close();
+
+
+                break;
+            case R.id.bdelete:
+                String usr1 = sqlrow.getText().toString();
+                long ul1 = Long.parseLong(usr1);
+                Operations dop = new Operations(this);
+                try {
+                    dop.open();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                dop.delete(ul1);
+                dop.close();
+
                 break;
 
         }
